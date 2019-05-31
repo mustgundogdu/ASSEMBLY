@@ -1,5 +1,5 @@
 # ASSEMBLY
-Kodu derlememiz ve çalıştırmamız için linux dağıtımımızda aşağıdaki komutlar girmemiz gerekmektedir.
+Örnek olarak Kodu derlememiz ve çalıştırmamız için linux dağıtımımızda aşağıdaki komutlar girebiliriz.
 
 root@b3kc4t:~#as helloas -o helloas.o
 
