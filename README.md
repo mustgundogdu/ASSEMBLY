@@ -1,5 +1,5 @@
 # ASSEMBLY
-Örnek olarak Kodu derlememiz ve çalıştırmamız için linux dağıtımımızda aşağıdaki komutlar girebiliriz.
+Örnek olarak helloas isimli assembly program dosyamızı derlememiz ve çalıştırmamız için linux dağıtımımızda aşağıdaki komutlar girebiliriz.
 
 root@b3kc4t:~#as helloas -o helloas.o
 
