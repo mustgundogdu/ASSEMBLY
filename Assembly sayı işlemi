@@ -1,0 +1,36 @@
+section .data
+usermsj db 'Bir sayi giriniz:',10
+lenuser equ $-usermsj
+dispmsj db 'Bu sayiyi girdiniz:',10
+uzunluk equ $-dispmsj
+section .bss
+num resb 5
+section .text
+global _start
+_start:
+mov eax,4
+mov ebx,1
+mov ecx,usermsj
+mov edx,lenuser
+int 80h
+;Kullanici girisi
+mov eax,3
+mov ebx,2
+mov ecx,num
+mov edx,5
+int 80h
+mov eax,4
+mov ebx,1
+mov ecx,dispmsj
+mov edx,uzunluk
+int 80h
+;sayinin ekrana yazimi
+mov eax,4
+mov ebx,1
+mov ecx,num
+mov edx,5
+int 80h
+;cikis kodu
+mov eax,1
+mov ebx,0
+int 80h
