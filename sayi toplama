@@ -1,0 +1,33 @@
+section .text
+global _start
+_start:
+
+mov eax,'3'
+sub eax,'0'
+
+mov ebx,'4'
+sub ebx,'0'
+add eax,ebx
+add eax,'0'
+
+mov [sum],eax
+mov eax,4
+mov ebx,1
+mov ecx,msg
+mov edx,len
+int 80h
+
+mov eax,4
+mov ebx,1
+mov ecx,sum
+mov edx,1
+int 80h
+
+mov eax,1
+int 80h
+section .data
+msg db "toplam:",0xA
+len equ $ - msg
+
+section .bss
+sum resb 1
