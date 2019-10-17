@@ -1,6 +1,6 @@
 # ASSEMBLY
 Örnek olarak helloas isimli assembly program dosyamızı derlememiz ve çalıştırmamız için önce linux dağıtımımızda nasm derleyicisini kullanarak bir object dosyası oluşturuyoruz.
-Daha sonra oluşturduğumuz object dosyasını bir bağlayıcı vasıtası ile çalıştırılabilir dosya haline getirip çalıştırıyoruz.  
+Daha sonra oluşturduğumuz object dosyasını bir bağlayıcı vasıtası ile çalıştırılabilir dosya haline getirip çalıştırıyoruz.(linux tabanlı sistemlerde çalıştırılabilir dosya formatı elftir.)  
 
 
 
