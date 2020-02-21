@@ -6,7 +6,7 @@ Daha sonra oluşturduğumuz object dosyasını bir bağlayıcı vasıtası ile �
 
 
 
-root@b3kc4t:~#nasm -f elf helloas
+root@b3kc4t:~#nasm -f elf hello.asm
 
 
 root@b3kc4t:~#ld -m elf_i386 -s -o hello helloas.o
